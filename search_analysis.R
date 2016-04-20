@@ -1,6 +1,6 @@
 library(tm)
 
-source('parse_json_data.R')
+source('data_processing/parse_json_data.R')
 
 
 searches <- parseJsonSearches('data/searches')
