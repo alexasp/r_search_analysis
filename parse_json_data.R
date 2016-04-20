@@ -1,4 +1,5 @@
 library(RJSONIO)
+library(RCurl)
 
 parseJsonSearches <- function(path){
   files <- as.character(list.files(path=path, full.names = TRUE))
